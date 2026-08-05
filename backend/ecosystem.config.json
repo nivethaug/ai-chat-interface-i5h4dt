@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "name": "ai-chat-interface-i5h4dt-backend",
+      "script": "/root/clawd-backend/scripts/backend-sandbox.sh",
+      "args": "/root/dreampilot/dreampilotvenv /workspaces/user_26/website/1938_ai-chat-interface_20260805_183636/backend 8016",
+      "cwd": "/workspaces/user_26/website/1938_ai-chat-interface_20260805_183636/backend",
+      "interpreter": "/bin/bash",
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch": false,
+      "max_memory_restart": "900M",
+      "out_file": "/workspaces/user_26/website/1938_ai-chat-interface_20260805_183636/backend/logs/out.log",
+      "error_file": "/workspaces/user_26/website/1938_ai-chat-interface_20260805_183636/backend/logs/error.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "env": {
+        "PORT": "8016",
+        "BACKEND_HOST": "0.0.0.0",
+        "BACKEND_PORT": "8016",
+        "PROJECT_NAME": "ai-chat-interface-i5h4dt",
+        "DATABASE_URL": "postgresql://ai_chat_interface_i5h4dt_user:dDqV4Bgt1ugUuSmn8OZ3cRgJkaaWsjPQ@localhost:5432/ai_chat_interface_i5h4dt_db"
+      }
+    }
+  ]
+}
